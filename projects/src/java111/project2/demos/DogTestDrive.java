@@ -22,5 +22,22 @@ public class DogTestDrive {
         one.bark(70);
         two.bark(8);
         three.bark(35);
+
+
+        Dog[] dogs = new Dog[5];
+        dogs[0] = two;
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

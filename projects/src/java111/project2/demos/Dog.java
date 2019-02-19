@@ -17,6 +17,11 @@ public class Dog {
         System.out.println("This is the value of the parameter size " + size);
     }
 
+    /**
+     * return the dog size
+     *
+     * @return the dog size 
+     */
     public int getSize() {
         return size;
     }
