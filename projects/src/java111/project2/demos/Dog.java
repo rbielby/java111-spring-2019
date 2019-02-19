@@ -5,8 +5,21 @@
  */
 public class Dog {
 
-    int size;
-    String  name;
+    private int size;
+    private String  name;
+
+    /**
+     * sets the size of the dog
+     * @param int the size of the dog
+     */
+    public void setSize(int size) {
+        size = size;
+        System.out.println("This is the value of the parameter size " + size);
+    }
+
+    public int getSize() {
+        return size;
+    }
 
     /**
      *  This method is the code for the bark action

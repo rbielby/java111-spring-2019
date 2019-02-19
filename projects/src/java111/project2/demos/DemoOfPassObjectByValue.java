@@ -14,16 +14,16 @@ public class DemoOfPassObjectByValue {
      */
     void go(Dog parameterDog) {
 
-        System.out.println("value of instanceDog: " + instanceDog.size);
-        System.out.println("value of parameterDog: " + parameterDog.size);
+        System.out.println("value of instanceDog: " + instanceDog.getSize());
+        System.out.println("value of parameterDog: " + parameterDog.getSize());
 
-        parameterDog.size = 10;
+        parameterDog.setSize(10);
 
-        System.out.println("value of instanceDog: " + instanceDog.size);
-        System.out.println("value of parameterDog: " + parameterDog.size);
+        System.out.println("value of instanceDog: " + instanceDog.getSize());
+        System.out.println("value of parameterDog: " + parameterDog.getSize());
 
         instanceDog = new Dog();
-        System.out.println("value of instanceDog after creating new instance: " + instanceDog.size);
+        System.out.println("value of instanceDog after creating new instance: " + instanceDog.getSize());
 
     }
 
@@ -31,7 +31,7 @@ public class DemoOfPassObjectByValue {
      *  Main processing method for the DemoOfPassObjectByValue object.
      */
     void run() {
-        instanceDog.size = 20;
+        instanceDog.setSize(20);
         go(instanceDog);
     }
 }
