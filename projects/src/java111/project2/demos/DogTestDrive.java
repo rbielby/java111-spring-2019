@@ -19,9 +19,18 @@ public class DogTestDrive {
 
         Dog three = new Dog();
 
-        one.bark(70);
-        two.bark(8);
-        three.bark(35);
+        System.out.println(one.getName());
+        System.out.println(one.getSize());
+
+        // one.bark(70);
+        // two.bark(8);
+        // three.bark(35);
+
+        // one.size = 50;
+        //
+        // System.out.println("After setting public variable");
+        //
+        // one.setSize(23);
 
 
         Dog[] dogs = new Dog[5];

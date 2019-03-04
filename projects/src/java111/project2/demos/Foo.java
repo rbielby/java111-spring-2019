@@ -9,7 +9,8 @@ public class Foo {
      *  Declaring local variables
      */
     public void go() {
-        int  aNumber;
+        String name;
+        int  aNumber  = 0;
         int  anotherNumber = aNumber + 3;
     }
 }
