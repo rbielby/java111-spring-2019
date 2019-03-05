@@ -1,0 +1,6 @@
+Adder test plan
+
+Number 1        Number 2        Expected Result
+1               2               3
+-1              -9              -10
+0               7               7s     

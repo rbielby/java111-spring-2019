@@ -1,5 +1,4 @@
 1 QuoteLauncher -  Create an instance of QuoteFinder and start it running
 2 QuoteFinder - Ask the user for a color and find a quote
 3 Quote  - Contain the quote information for a color
-4 InputHelper - Asks for user input 
-5
+4 InputHelper - Asks for user input

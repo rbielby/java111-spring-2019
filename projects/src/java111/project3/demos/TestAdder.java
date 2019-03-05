@@ -1,6 +1,6 @@
 /**
  * Automated unit test for addition
- * @author    eknapp 
+ * @author    eknapp
  */
 public class TestAdder {
 
@@ -9,7 +9,7 @@ public class TestAdder {
 	 *  2. Set any data on the class to be tested
 	 *  3. Create a variable for the expected result
 	 *  4. Compare the expected result to the actual result
-	 *  5. Write out success or fail messages. 
+	 *  5. Write out success or fail messages.
      *
      * @param  args  The command line arguments
      */
@@ -21,9 +21,19 @@ public class TestAdder {
         int    results  = adder.add();
 
         if (results == 9) {
-            System.out.println("success");
+            System.out.println("Success");
         } else {
-            System.out.println("failure");
+            System.out.println("failure: actual result " + results);
+        }
+
+        adder.setIntOne(-1);
+        adder.setIntTwo(-9);
+        results  = adder.add();
+
+        if (results == -10) {
+            System.out.println("Success");
+        } else {
+            System.out.println("failure: actual result " + results);
         }
 
     }
