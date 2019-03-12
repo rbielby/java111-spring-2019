@@ -69,11 +69,11 @@ public class Dog {
      * @return    Description of the Return Value
      */
     public int calculateFoodNeeded() {
-        if (weight <= 50) {
-            return 1;
-        } else {
-            return 2;
-        }
+            if (weight <= 50) {
+                return 1;
+            } else {
+                return 2;
+            }
     }
 
     /**

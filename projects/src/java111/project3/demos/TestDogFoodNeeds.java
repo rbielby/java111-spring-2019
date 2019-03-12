@@ -24,17 +24,17 @@ public class TestDogFoodNeeds {
         int  foodWeight  = dog.calculateFoodNeeded();
 
         //
-        // With a weight of 45 pounds a dog will 
+        // With a weight of 45 pounds a dog will
         // need 1 pound of food per day
         //
         if (foodWeight == 1) {
-            System.out.println("Weight test for less " 
+            System.out.println("Weight test for less "
                     + "than 50 pounds - success");
         } else {
-            System.out.println("Weight test for less " 
+            System.out.println("Weight test for less "
                     + "than 50 pounds - failure");
         }
-        
+
         //
         // Do another test for over 50
         //
@@ -46,15 +46,39 @@ public class TestDogFoodNeeds {
         foodWeight  = dog.calculateFoodNeeded();
 
         //
-        // With a weight of 75 pounds a dog will 
+        // With a weight of 75 pounds a dog will
         // need 1 pound of food per day
         //
         if (foodWeight == 2) {
-            System.out.println("Weight test for more " 
+            System.out.println("Weight test for more "
                     + "than 50 pounds - success");
         } else {
-            System.out.println("Weight test for more " 
+            System.out.println("Weight test for more "
                     + "than 50 pounds - failure");
         }
+
+
+        //
+        // Do another test for equal 50
+        //
+        dog.setWeight(50);
+
+        //
+        // Run the calculation
+        //
+        foodWeight  = dog.calculateFoodNeeded();
+
+        //
+        // With a weight of 75 pounds a dog will
+        // need 1 pound of food per day
+        //
+        if (foodWeight == 1) {
+            System.out.println("Weight test for equal "
+                    + "50 pounds - success");
+        } else {
+            System.out.println("Weight test for equal " 
+                    + "50 pounds - failure");
+        }
+
     }
 }
