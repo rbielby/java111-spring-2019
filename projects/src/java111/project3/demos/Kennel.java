@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- *  This is the Kennel class which holds Dog 
+ *  This is the Kennel class which holds Dog
  *  objects and calculates the food
  *  needs of the Kennel for a week.
  *
@@ -10,7 +10,7 @@ import java.util.*;
 public class Kennel {
 
     private  InputHelper  input;
-    private  ArrayList    dogs;
+    private  ArrayList<Dog>    dogs;
     private  int          totalFoodForWeek;
 
     /**

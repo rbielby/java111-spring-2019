@@ -10,12 +10,12 @@ public class Tester {
     public static void main(String[] args) {
         InputHelper helper = new InputHelper();
 
-        // String input = helper.getUserInput("Enter a number: ");
-        // float inputNumber = Float.parseFloat(input);
-        // System.out.println("Is this what you entered?  " + inputNumber);
-        //
-        // Dog[] dogs = new Dog[10];
-        // dogs[0] = new Dog();
+        String input = helper.getUserInput("Enter a number: ");
+        float inputNumber = Float.parseFloat(input);
+        System.out.println("Is this what you entered?  " + inputNumber);
+
+        Dog[] dogs = new Dog[10];
+        dogs[0] = new Dog();
 
         ArrayList<Dog> dogList = new ArrayList<Dog>();
         Dog dog = new Dog();
