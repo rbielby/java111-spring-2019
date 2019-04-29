@@ -6,7 +6,7 @@
 public class ConstructorDemoTestDrive {
 
     public static void main(String[] args) {
-        ConstructorDemo demo = new ConstructorDemo(1);
+        ConstructorDemo demo = new ConstructorDemo();
         demo.run();
     }
 }
