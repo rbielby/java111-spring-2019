@@ -8,7 +8,7 @@ public class StaticTest {
     /**
      * This the main method to run a test of static methods
      *
-     *
+     * another change
      */
     public static void main(String[] args) {
 
