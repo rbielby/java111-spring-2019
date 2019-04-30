@@ -5,6 +5,11 @@
  */
 public class StaticTest {
 
+    /**
+     * This the main method to run a test of static methods
+     *
+     *
+     */
     public static void main(String[] args) {
 
         System.out.println("==== Math.round() ======");
